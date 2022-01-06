@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }) {
       <div>
         <Head>
           <title>Tuan Hoang</title>
+          <link rel="shortcut icon" href="/assets/img/favicon.ico" />
         </Head>
       </div>
       <Component {...pageProps} />
