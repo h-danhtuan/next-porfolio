@@ -20,13 +20,13 @@ const work = () => {
               <a className="">Contact</a>
             </Link>
           </div>
-          <div className="rotate-0 lg:-rotate-90 mr-4 lg:ml-3 lg:mr-0 mt-2 lg:mt-24 h-[2px] w-[40px] bg-[#EEE7E1] desk:ml-8"></div>
-          <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-64">
+          <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 mt-2 lg:mt-24 h-[2px] w-[40px] bg-[#EEE7E1] lg:-ml-2 xl:ml-1 2xl:ml-3 desk:ml-7"></div>
+          <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-40 xl:mt-64">
             &#169; 2022
           </div>
         </div>
       </div>
-      <div className="w-full lg:w-4/12 px-8 font-mondium pt-[60px] lg:pt-[300px] xl:pt-[380px] 2xl:pt-[400px] desk:pt-[430px] pr-10">
+      <div className="w-full lg:w-4/12 px-8 font-mondium pt-[60px] lg:pt-[240px] xl:pt-[380px] 2xl:pt-[400px] desk:pt-[430px] pr-10">
         <div className="pb-5 font-semibold text-[16px]">Work</div>
         <div className="pb-5 font-thin text-[14px]">
           This is a showcase of my best work in a variety of fields, from
@@ -39,10 +39,10 @@ const work = () => {
         </div>
       </div>
       <div className="w-full lg:w-7/12 h-full px-8">
-        <div className=" uppercase pt-12 lg:pt-72 xl:pt-80 2xl:pt-64 font-extralight leading-tight lg:leading-none flex flex-col">
+        <div className=" uppercase pt-12 lg:pt-64 xl:pt-80 2xl:pt-64 font-extralight leading-tight lg:leading-none flex flex-col">
           <div className="">
             <Link href="/work/new-pasona">
-              <a className="font-grand text-[40px] lg:text-[75px] xl:text-[80px] 2xl:text-[100px]">
+              <a className="font-grand text-[40px] lg:text-[65px] xl:text-[80px] 2xl:text-[100px]">
                 New Pasona
               </a>
             </Link>
@@ -53,7 +53,7 @@ const work = () => {
 
           <div className="">
             <Link href="/work/crossing">
-              <a className="font-grand text-[40px] lg:text-[75px] xl:text-[80px] 2xl:text-[100px]">
+              <a className="font-grand text-[40px] lg:text-[65px] xl:text-[80px] 2xl:text-[100px]">
                 Crossing
               </a>
             </Link>
@@ -64,7 +64,7 @@ const work = () => {
 
           <div>
             <Link href="/work/pasona-tech">
-              <a className="font-grand text-[40px] lg:text-[75px] xl:text-[80px] 2xl:text-[100px]">
+              <a className="font-grand text-[40px] lg:text-[65px] xl:text-[80px] 2xl:text-[100px]">
                 Pasona Tech
               </a>
             </Link>

@@ -15,8 +15,8 @@ export default function Home() {
               <a className="">Github</a>
             </Link>
           </div>
-          <div className="rotate-0 lg:-rotate-90 mr-4 lg:ml-3 lg:mr-0 mt-2 lg:mt-24 h-[2px] w-[40px] bg-[#1a1919] desk:ml-8"></div>
-          <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-80">
+          <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 mt-2 lg:mt-24 h-[2px] w-[40px] bg-[#1a1919] lg:-ml-2 xl:ml-1 2xl:ml-3 desk:ml-7"></div>
+          <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-40 lg:mt-72">
             &#169; 2022
           </div>
         </div>
