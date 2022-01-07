@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="flex flex-col lg:flex-row bg-[#1a1919] text-[12px] text-[#EEE7E1] min-h-screen">
       <div className="w-full lg:w-1/12 px-8 font-mondium">
-        <div className="flex flex-row lg:flex-col justify-between mt-8 lg:mt-4">
+        <div className="flex flex-row lg:flex-col mt-8 lg:mt-4">
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-20 desk:mt-24 z-50">
             <Link href="/">
               <a className="">Home</a>
@@ -26,10 +26,10 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="w-full lg:w-4/12 px-8 font-mondium pt-[60px] lg:pt-[300px] xl:pt-[430px] pr-10">
+      <div className="w-full lg:w-4/12 px-8 font-mondium pt-[60px] lg:pt-[300px] xl:pt-[380px] 2xl:pt-[400px] desk:pt-[430px] pr-10">
         <div className="pb-5 font-semibold text-[16px]">About</div>
         <div className="pb-5 font-thin text-[14px]">
-          This is a showcase of my best work in a variety of fields, from
+          This is a showcase of my best About in a variety of fields, from
           Graphic and Web Design to Product Design and Management.
         </div>
         <div className="pb-5 font-thin text-[14px]">
@@ -39,11 +39,11 @@ const About = () => {
         </div>
       </div>
       <div className="w-full lg:w-7/12 h-full px-8">
-        <div className=" uppercase pt-12 lg:pt-72 xl:pt-64 2xl:pt- font-extralight leading-tight lg:leading-none flex flex-col">
+        <div className=" uppercase pt-12 lg:pt-72 xl:pt-80 2xl:pt-64 font-extralight leading-tight lg:leading-none flex flex-col">
           <div className="">
-            <Link href="/work/pasona-tech">
+            <Link href="/About/new-pasona">
               <a className="font-grand text-[40px] lg:text-[75px] xl:text-[80px] 2xl:text-[100px]">
-                Pasona Tech
+                New Pasona
               </a>
             </Link>
             <div className="text-[12px] leading-[20px] font-mondium ml-2 leading-[1em] mb-2">
@@ -52,7 +52,7 @@ const About = () => {
           </div>
 
           <div className="">
-            <Link href="/work/crossing">
+            <Link href="/About/crossing">
               <a className="font-grand text-[40px] lg:text-[75px] xl:text-[80px] 2xl:text-[100px]">
                 Crossing
               </a>
@@ -63,9 +63,9 @@ const About = () => {
           </div>
 
           <div>
-            <Link href="/work/new-pasona">
+            <Link href="/About/pasona-tech">
               <a className="font-grand text-[40px] lg:text-[75px] xl:text-[80px] 2xl:text-[100px]">
-                New Pasona
+                Pasona Tech
               </a>
             </Link>
             <div className="text-[12px] leading-[20px] font-mondium ml-2 leading-[1em]">
