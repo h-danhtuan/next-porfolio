@@ -6,10 +6,14 @@ export default function Home() {
       <div className="w-full lg:w-1/12 px-8 font-mondium">
         <div className="flex flex-row lg:flex-col mt-8 lg:mt-4">
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-20">
-            LinkedIn
+            <Link href="https://linkedin.com/in/tuan-hoang-danh-26711471">
+              <a className="">LinkedIn</a>
+            </Link>
           </div>
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-16">
-            Github
+            <Link href="https://github.com/h-danhtuan">
+              <a className="">Github</a>
+            </Link>
           </div>
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:ml-3 lg:mr-0 mt-2 lg:mt-24 h-[2px] w-[40px] bg-[#1a1919] "></div>
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-80">
