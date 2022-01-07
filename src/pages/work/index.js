@@ -5,12 +5,12 @@ const work = () => {
     <div className="flex flex-col lg:flex-row bg-[#1a1919] text-[12px] text-[#EEE7E1] min-h-screen">
       <div className="w-full lg:w-1/12 px-8 font-mondium">
         <div className="flex flex-row lg:flex-col mt-8 lg:mt-4">
-          <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-20">
+          <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-20 desk:mt-24 z-50">
             <Link href="/">
               <a className="">Home</a>
             </Link>
           </div>
-          <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-12">
+          <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-12 z-40">
             <Link href="/about">
               <a className="">About</a>
             </Link>
@@ -20,7 +20,7 @@ const work = () => {
               <a className="">Contact</a>
             </Link>
           </div>
-          <div className="rotate-0 lg:-rotate-90 mr-4 lg:ml-3 lg:mr-0 mt-2 lg:mt-24 h-[2px] w-[40px] bg-[#EEE7E1]"></div>
+          <div className="rotate-0 lg:-rotate-90 mr-4 lg:ml-3 lg:mr-0 mt-2 lg:mt-24 h-[2px] w-[40px] bg-[#EEE7E1] desk:ml-8"></div>
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-64">
             &#169; 2022
           </div>

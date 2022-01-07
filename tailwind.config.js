@@ -18,6 +18,9 @@ module.exports = {
         grand: [" 'GrandSlang Roman', sans-serif "],
         mondium: [" 'Montserrat Medium', sans-serif "],
       },
+      screens: {
+        desk: "1736px",
+      },
     },
   },
   plugins: [],

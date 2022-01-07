@@ -4,13 +4,13 @@ const About = () => {
   return (
     <div className="flex flex-col lg:flex-row bg-[#1a1919] text-[12px] text-[#EEE7E1] min-h-screen">
       <div className="w-full lg:w-1/12 px-8 font-mondium">
-        <div className="flex flex-row lg:flex-col mt-8 lg:mt-4">
-          <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-20">
+        <div className="flex flex-row lg:flex-col justify-between mt-8 lg:mt-4">
+          <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-20 desk:mt-24 z-50">
             <Link href="/">
               <a className="">Home</a>
             </Link>
           </div>
-          <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-12">
+          <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-12 z-40">
             <Link href="/work">
               <a className="">Work</a>
             </Link>
@@ -20,7 +20,7 @@ const About = () => {
               <a className="">Contact</a>
             </Link>
           </div>
-          <div className="rotate-0 lg:-rotate-90 mr-4 lg:ml-3 lg:mr-0 mt-2 lg:mt-24 h-[2px] w-[40px] bg-[#EEE7E1]"></div>
+          <div className="rotate-0 lg:-rotate-90 mr-4 lg:ml-3 lg:mr-0 mt-2 lg:mt-24 h-[2px] w-[40px] bg-[#EEE7E1] desk:ml-8"></div>
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-64">
             &#169; 2022
           </div>
@@ -39,10 +39,12 @@ const About = () => {
         </div>
       </div>
       <div className="w-full lg:w-7/12 h-full px-8">
-        <div className=" uppercase text-[40px] lg:text-[75px] xl:text-[100px] pt-12 lg:pt-72 xl:pt-64 2xl:pt- font-extralight leading-tight lg:leading-none flex flex-col">
+        <div className=" uppercase pt-12 lg:pt-72 xl:pt-64 2xl:pt- font-extralight leading-tight lg:leading-none flex flex-col">
           <div className="">
             <Link href="/work/pasona-tech">
-              <a className="font-grand">Pasona Tech</a>
+              <a className="font-grand text-[40px] lg:text-[75px] xl:text-[80px] 2xl:text-[100px]">
+                Pasona Tech
+              </a>
             </Link>
             <div className="text-[12px] leading-[20px] font-mondium ml-2 leading-[1em] mb-2">
               - Website Development
@@ -51,7 +53,9 @@ const About = () => {
 
           <div className="">
             <Link href="/work/crossing">
-              <a className="font-grand">Crossing</a>
+              <a className="font-grand text-[40px] lg:text-[75px] xl:text-[80px] 2xl:text-[100px]">
+                Crossing
+              </a>
             </Link>
             <div className="text-[12px] leading-[20px] font-mondium ml-2 leading-[1em] mb-2">
               - Website Design & Development
@@ -60,7 +64,9 @@ const About = () => {
 
           <div>
             <Link href="/work/new-pasona">
-              <a className="font-grand">New Pasona</a>
+              <a className="font-grand text-[40px] lg:text-[75px] xl:text-[80px] 2xl:text-[100px]">
+                New Pasona
+              </a>
             </Link>
             <div className="text-[12px] leading-[20px] font-mondium ml-2 leading-[1em]">
               - Website Development
