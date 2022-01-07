@@ -26,7 +26,7 @@ const work = () => {
           </div>
         </div>
       </div>
-      <div className="w-full lg:w-4/12 px-8 font-mondium pt-[60px] lg:pt-[300px] xl:pt-[430px] pr-10">
+      <div className="w-full lg:w-4/12 px-8 font-mondium pt-[60px] lg:pt-[300px] xl:pt-[380px] 2xl:pt-[400px] desk:pt-[430px] pr-10">
         <div className="pb-5 font-semibold text-[16px]">Work</div>
         <div className="pb-5 font-thin text-[14px]">
           This is a showcase of my best work in a variety of fields, from
@@ -39,10 +39,12 @@ const work = () => {
         </div>
       </div>
       <div className="w-full lg:w-7/12 h-full px-8">
-        <div className=" uppercase text-[40px] lg:text-[75px] xl:text-[100px] pt-12 lg:pt-72 xl:pt-64 2xl:pt- font-extralight leading-tight lg:leading-none flex flex-col">
+        <div className=" uppercase pt-12 lg:pt-72 xl:pt-80 2xl:pt-64 font-extralight leading-tight lg:leading-none flex flex-col">
           <div className="">
-            <Link href="/work/pasona-tech">
-              <a className="font-grand">Pasona Tech</a>
+            <Link href="/work/new-pasona">
+              <a className="font-grand text-[40px] lg:text-[75px] xl:text-[80px] 2xl:text-[100px]">
+                New Pasona
+              </a>
             </Link>
             <div className="text-[12px] leading-[20px] font-mondium ml-2 leading-[1em] mb-2">
               - Website Development
@@ -51,7 +53,9 @@ const work = () => {
 
           <div className="">
             <Link href="/work/crossing">
-              <a className="font-grand">Crossing</a>
+              <a className="font-grand text-[40px] lg:text-[75px] xl:text-[80px] 2xl:text-[100px]">
+                Crossing
+              </a>
             </Link>
             <div className="text-[12px] leading-[20px] font-mondium ml-2 leading-[1em] mb-2">
               - Website Design & Development
@@ -59,8 +63,10 @@ const work = () => {
           </div>
 
           <div>
-            <Link href="/work/new-pasona">
-              <a className="font-grand">New Pasona</a>
+            <Link href="/work/pasona-tech">
+              <a className="font-grand text-[40px] lg:text-[75px] xl:text-[80px] 2xl:text-[100px]">
+                Pasona Tech
+              </a>
             </Link>
             <div className="text-[12px] leading-[20px] font-mondium ml-2 leading-[1em]">
               - Website Development
