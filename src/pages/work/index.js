@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const About = () => {
+const work = () => {
   return (
     <div className="flex flex-col lg:flex-row bg-[#1a1919] text-[12px] text-[#EEE7E1] min-h-screen">
       <div className="w-full lg:w-1/12 px-8 font-mondium">
@@ -11,8 +11,8 @@ const About = () => {
             </Link>
           </div>
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-12">
-            <Link href="/work">
-              <a className="">Work</a>
+            <Link href="/about">
+              <a className="">About</a>
             </Link>
           </div>
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-16">
@@ -27,7 +27,7 @@ const About = () => {
         </div>
       </div>
       <div className="w-full lg:w-4/12 px-8 font-mondium pt-[60px] lg:pt-[300px] xl:pt-[430px] pr-10">
-        <div className="pb-5 font-semibold text-[16px]">About</div>
+        <div className="pb-5 font-semibold text-[16px]">Work</div>
         <div className="pb-5 font-thin text-[14px]">
           This is a showcase of my best work in a variety of fields, from
           Graphic and Web Design to Product Design and Management.
@@ -72,4 +72,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default work;
