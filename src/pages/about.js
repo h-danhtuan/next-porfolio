@@ -31,10 +31,10 @@ const About = () => {
       <div className="w-full px-8 font-mondium pt-[50px] lg:pt-[65px] xl:pt-[70px] 2xl:pt-[90px] desk:pt-[105px] lg:ml-12 lg:pr-12">
         <div className="flex flex-col lg:flex-row justify-between items-center text-[#1a1919]">
           <div className="items-start w-full">
-            <div className="pb-5 font-semibold text-[40px] lg:text-[60px] xl:text-[75px] 2xl:text-[90px] desk:text-[120px] font-grand">
+            <div className="pb-5 font-semibold text-[40px] lg:text-[60px] xl:text-[75px] 2xl:text-[90px] desk:text-[120px] font-fugi">
               About
             </div>
-            <div className="font-grand text-[20px] lg:text-[28px] xl:text-[36px]">
+            <div className="font-fugi text-[20px] lg:text-[28px] xl:text-[36px]">
               I&apos;m Tuan. A developer, creator and problem solver.
             </div>
           </div>
@@ -56,7 +56,7 @@ const About = () => {
           </div>
 
           <div className="mt-4">
-            <div className="uppercase font-grand text-[16px] lg:text-[18px] xl:text-[20px] text-[#1a1919]">
+            <div className="uppercase font-fugi text-[16px] lg:text-[18px] xl:text-[20px] text-[#1a1919]">
               experience
             </div>
             <div className="font-mondium text-[14px] text-[#333]">
@@ -64,7 +64,7 @@ const About = () => {
             </div>
           </div>
           <div className="mt-8">
-            <div className="uppercase font-grand text-[16px] lg:text-[18px] xl:text-[20px] text-[#1a1919]">
+            <div className="uppercase font-fugi text-[16px] lg:text-[18px] xl:text-[20px] text-[#1a1919]">
               skills
             </div>
             <div className="font-mondium text-[14px] text-[#333]">
@@ -72,7 +72,7 @@ const About = () => {
             </div>
             <div className="mt-12 mb-8">
               <Link href="/contact">
-                <a className="bg-[#1a1919] text-[#EEE7E1] hover:opacity-70 font-bold py-2 px-4 rounded font-grand text-[20px]">
+                <a className="bg-[#1a1919] text-[#EEE7E1] hover:opacity-70 font-bold py-2 px-4 rounded font-fugi text-[20px]">
                   Contact Me
                 </a>
               </Link>
