@@ -7,12 +7,16 @@ export default function Home() {
         <div className="flex flex-row lg:flex-col mt-8 lg:mt-4">
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-20">
             <Link href="https://linkedin.com/in/tuan-hoang-danh-26711471">
-              <a className="">LinkedIn</a>
+              <a target="_blank" className="">
+                LinkedIn
+              </a>
             </Link>
           </div>
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-16">
             <Link href="https://github.com/h-danhtuan">
-              <a className="">Github</a>
+              <a target="_blank" className="">
+                Github
+              </a>
             </Link>
           </div>
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 mt-2 lg:mt-24 h-[2px] w-[40px] bg-[#1a1919] lg:-ml-2 xl:ml-1 2xl:ml-3 desk:ml-7"></div>
