@@ -31,7 +31,7 @@ const About = () => {
       <div className="w-full px-8 font-mondium pt-[50px] lg:pt-[65px] xl:pt-[70px] 2xl:pt-[90px] desk:pt-[105px] lg:ml-12 lg:pr-12">
         <div className="flex flex-col lg:flex-row justify-between items-center text-[#1a1919]">
           <div className="items-start w-full">
-            <div className="pb-5 font-semibold text-[40px] lg:text-[60px] xl:text-[75px] 2xl:text-[90px] desk:text-[100px] font-grand">
+            <div className="pb-5 font-semibold text-[40px] lg:text-[60px] xl:text-[75px] 2xl:text-[90px] desk:text-[120px] font-grand">
               About
             </div>
             <div className="font-grand text-[20px] lg:text-[28px] xl:text-[36px]">

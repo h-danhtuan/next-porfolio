@@ -38,7 +38,19 @@ const Contact = () => {
           Email: camninh224@gmail.com
         </div>
         <div className="pb-5 font-thin text-[14px] font-mondium leading-[1em]">
-          On the Internet: LinkedIn / Github
+          On the Internet:{" "}
+          <Link href="https://linkedin.com/in/tuan-hoang-danh-26711471">
+            <a target="_blank" className="">
+              LinkedIn{" "}
+            </a>
+          </Link>
+          /
+          <Link href="https://github.com/h-danhtuan">
+            <a target="_blank" className="">
+              {" "}
+              Github
+            </a>
+          </Link>
         </div>
       </div>
 

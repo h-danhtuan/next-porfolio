@@ -41,7 +41,7 @@ const work = () => {
       <div className="w-full lg:w-7/12 h-full px-8">
         <div className=" uppercase pt-12 lg:pt-64 xl:pt-80 2xl:pt-64 font-extralight leading-tight lg:leading-none flex flex-col">
           <div className="">
-            <Link href="/work/new-pasona">
+            <Link href="/work/detail/new-pasona">
               <a className="font-grand text-[40px] lg:text-[65px] xl:text-[80px] 2xl:text-[100px]">
                 New Pasona
               </a>
@@ -52,7 +52,7 @@ const work = () => {
           </div>
 
           <div className="">
-            <Link href="/work/crossing">
+            <Link href="/work/detail/crossing">
               <a className="font-grand text-[40px] lg:text-[65px] xl:text-[80px] 2xl:text-[100px]">
                 Crossing
               </a>
@@ -63,7 +63,7 @@ const work = () => {
           </div>
 
           <div>
-            <Link href="/work/pasona-tech">
+            <Link href="/work/detail/pasona-tech">
               <a className="font-grand text-[40px] lg:text-[65px] xl:text-[80px] 2xl:text-[100px]">
                 Pasona Tech
               </a>
