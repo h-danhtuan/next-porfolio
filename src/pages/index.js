@@ -34,7 +34,7 @@ export default function Home() {
         </div>
       </div>
       <div className="w-full lg:w-7/12 h-full px-8">
-        <div className="font-grand uppercase text-[50px] lg:text-[80px] xl:text-[130px] pt-12 lg:pt-56 font-extralight leading-tight lg:leading-none flex flex-col">
+        <div className="font-fugi uppercase text-[50px] lg:text-[80px] xl:text-[100px] 2xl:text-[120px] pt-12 lg:pt-56 xl:pt-72 2xl:pt-56 font-extralight leading-tight lg:leading-none flex flex-col">
           <Link href="/work">
             <a className="">work</a>
           </Link>

@@ -13,10 +13,11 @@ module.exports = {
         "black-bg": "#1a1919",
       },
       fontFamily: {
-        mont: [" 'Montserrat', sans-serif "],
-        crazy: ["'Grandstander', cursive;"],
         grand: [" 'GrandSlang Roman', sans-serif "],
         mondium: [" 'Montserrat Medium', sans-serif "],
+        moric: [" 'Moric', sans-serif "],
+        musky: [" 'Musky', sans-serif "],
+        fugi: [" 'Fugi', sans-serif "],
       },
       screens: {
         desk: "1736px",

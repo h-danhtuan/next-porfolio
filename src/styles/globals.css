@@ -2,16 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url(//db.onlinewebfonts.com/c/0fddb08144cea533dcd3d39388b7ffbe?family=GrandSlang+Roman);
+/* @import url(//db.onlinewebfonts.com/c/0fddb08144cea533dcd3d39388b7ffbe?family=GrandSlang+Roman); */
 
-@layer base {
+/* @layer base {
   html {
-    @apply font-crazy;
     @apply font-mont;
   }
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: "GrandSlang Roman";
   src: url("//db.onlinewebfonts.com/t/0fddb08144cea533dcd3d39388b7ffbe.eot");
   src: url("//db.onlinewebfonts.com/t/0fddb08144cea533dcd3d39388b7ffbe.eot?#iefix")
@@ -24,6 +23,27 @@
       format("truetype"),
     url("//db.onlinewebfonts.com/t/0fddb08144cea533dcd3d39388b7ffbe.svg#GrandSlang Roman")
       format("svg");
+} */
+
+@font-face {
+  font-family: "Moric";
+  src: url("/assets/fonts/Moric/Moric.ttf") format("truetype"),
+    url("/assets/fonts/Moric/Moric.woff") format("woff"),
+    url("/assets/fonts/Moric/Morise.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Musky";
+  src: url("/assets/fonts/musky/Musky.ttf") format("truetype"),
+    url("/assets/fonts/musky/Musky.woff") format("woff"),
+    url("/assets/fonts/musky/Musky.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Fugi";
+  src: url("/assets/fonts/fugi/Fugi.ttf") format("truetype"),
+    url("/assets/fonts/fugi/Fugi.woff") format("woff"),
+    url("/assets/fonts/fugi/Fugi.otf") format("otf");
 }
 
 @font-face {

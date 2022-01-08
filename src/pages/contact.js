@@ -28,7 +28,7 @@ const Contact = () => {
       </div>
 
       <div className="w-full lg:w-5/12 px-8 pt-[60px] lg:pt-[240px] 2xl:pt-[140px] desk:pt-[180px] sm:pl-24 pr-10">
-        <div className="pb-5 font-semibold text-[60px] lg:text-[100px] xl:text-[140px] 2xl:text-[200px] desk:text-[240px] font-grand">
+        <div className="pb-5 font-semibold text-[60px] lg:text-[100px] xl:text-[140px] 2xl:text-[200px] desk:text-[240px] font-musky">
           Hello.
         </div>
         <div className="pb-5 font-thin text-[14px] font-mondium leading-[1em] mb-8">
