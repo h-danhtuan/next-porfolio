@@ -7,14 +7,14 @@ export default function Home() {
         <div className="flex flex-row lg:flex-col mt-8 lg:mt-4">
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-20">
             <Link href="https://linkedin.com/in/tuan-hoang-danh-26711471">
-              <a target="_blank" className="">
+              <a target="_blank" className="devil-link">
                 LinkedIn
               </a>
             </Link>
           </div>
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-16">
             <Link href="https://github.com/h-danhtuan">
-              <a target="_blank" className="">
+              <a target="_blank" className="devil-link">
                 Github
               </a>
             </Link>
@@ -36,13 +36,25 @@ export default function Home() {
       <div className="w-full lg:w-7/12 h-full px-8">
         <div className="font-fugi uppercase text-[50px] lg:text-[80px] xl:text-[100px] 2xl:text-[120px] pt-12 lg:pt-56 xl:pt-72 2xl:pt-56 font-extralight leading-tight lg:leading-none flex flex-col">
           <Link href="/work">
-            <a className="">work</a>
+            <a className="">
+              <span className="relative hover:animate-[wiggle_1s_infinite_alternate_ease-in-out] inline-block">
+                work
+              </span>
+            </a>
           </Link>
           <Link href="/about">
-            <a className="">about</a>
+            <a className="">
+              <span className="relative hover:animate-[wiggle_1s_infinite_alternate_ease-in-out] inline-block">
+                about
+              </span>
+            </a>
           </Link>
           <Link href="/contact">
-            <a className="">contact</a>
+            <a className="">
+              <span className="relative hover:animate-[wiggle_1s_infinite_alternate_ease-in-out] inline-block">
+                contact
+              </span>
+            </a>
           </Link>
         </div>
       </div>

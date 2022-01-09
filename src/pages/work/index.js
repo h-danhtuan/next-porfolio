@@ -7,17 +7,17 @@ const work = () => {
         <div className="flex flex-row lg:flex-col mt-8 lg:mt-4">
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-20 desk:mt-24 z-50">
             <Link href="/">
-              <a className="">Home</a>
+              <a className="cool-link">Home</a>
             </Link>
           </div>
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-12 z-40">
             <Link href="/about">
-              <a className="">About</a>
+              <a className="cool-link">About</a>
             </Link>
           </div>
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-16">
             <Link href="/contact">
-              <a className="">Contact</a>
+              <a className="cool-link">Contact</a>
             </Link>
           </div>
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 mt-2 lg:mt-24 h-[2px] w-[40px] bg-[#EEE7E1] lg:-ml-2 xl:ml-1 2xl:ml-3 desk:ml-7"></div>
@@ -29,13 +29,13 @@ const work = () => {
       <div className="w-full lg:w-4/12 px-8 font-mondium pt-[60px] lg:pt-[240px] xl:pt-[380px] 2xl:pt-[400px] desk:pt-[430px] pr-10">
         <div className="pb-5 font-semibold text-[16px]">Work</div>
         <div className="pb-5 font-thin text-[14px]">
-          This is a showcase of my best work in a variety of fields, from
-          Graphic and Web Design to Product Design and Management.
+          This is my main involved work in web development that brings me a lot
+          of knowledge, experience also mistakes and problems.
         </div>
         <div className="pb-5 font-thin text-[14px]">
-          The world of Digital Design has grown at an extremely rapid rate over
-          the last 10 years and my aim has been to evolve with it. I’m learning
-          and gaining new skills every day.
+          The world of Web Development has grown at an highly rabid rate so by
+          all the thing I have been through, I have a chance to grow up as well.
+          I&apos;m learning and gaining new thing every day.
         </div>
       </div>
       <div className="w-full lg:w-7/12 h-full px-8">
@@ -43,7 +43,9 @@ const work = () => {
           <div className="">
             <Link href="/work/detail/new-pasona">
               <a className="font-fugi text-[40px] lg:text-[65px] xl:text-[80px] 2xl:text-[100px]">
-                New Pasona
+                <span className="relative hover:animate-[waggle_1s_infinite_alternate_ease-in-out] inline-block">
+                  New Pasona
+                </span>
               </a>
             </Link>
             <div className="text-[12px] leading-[20px] font-mondium ml-2 leading-[1em] mb-2">
@@ -54,7 +56,9 @@ const work = () => {
           <div className="">
             <Link href="/work/detail/crossing">
               <a className="font-fugi text-[40px] lg:text-[65px] xl:text-[80px] 2xl:text-[100px]">
-                Crossing
+                <span className="relative hover:animate-[waggle_1s_infinite_alternate_ease-in-out] inline-block">
+                  Crossing
+                </span>
               </a>
             </Link>
             <div className="text-[12px] leading-[20px] font-mondium ml-2 leading-[1em] mb-2">
@@ -65,7 +69,9 @@ const work = () => {
           <div>
             <Link href="/work/detail/pasona-tech">
               <a className="font-fugi text-[40px] lg:text-[65px] xl:text-[80px] 2xl:text-[100px]">
-                Pasona Tech
+                <span className="relative hover:animate-[waggle_1s_infinite_alternate_ease-in-out] inline-block">
+                  Pasona Tech
+                </span>
               </a>
             </Link>
             <div className="text-[12px] leading-[20px] font-mondium ml-2 leading-[1em]">
