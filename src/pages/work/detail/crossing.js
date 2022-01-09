@@ -46,7 +46,7 @@ const Crossing = () => {
           <div className="pb-5 font-thin text-[14px] text-[#EEE7E1] lg:w-3/4 2xl:w-3/5">
             With my colleague (Ha Nam) we build this landing page from zero with
             just GastbyJs. I gained skills when working with Figma and a bit
-            design thing with Photoshop, Illustartor.
+            design thing with Photoshop, Illustrator.
           </div>
 
           <div className="mt-4">
