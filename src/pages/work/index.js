@@ -39,7 +39,7 @@ const work = () => {
         </div>
       </div>
       <div className="w-full lg:w-7/12 h-full px-8">
-        <div className=" uppercase pt-12 lg:pt-64 xl:pt-80 2xl:pt-64 font-extralight leading-tight lg:leading-none flex flex-col">
+        <div className=" uppercase pt-12 lg:pt-64 xl:pt-80 pb-8 md:pb-0 2xl:pt-64 font-extralight leading-tight lg:leading-none flex flex-col">
           <div className="">
             <Link href="/work/detail/new-pasona">
               <a className="font-fugi text-[40px] lg:text-[65px] xl:text-[80px] 2xl:text-[100px]">
