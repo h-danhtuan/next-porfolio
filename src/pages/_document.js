@@ -4,14 +4,9 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
-          {/* <link
-            href="//db.onlinewebfonts.com/c/0fddb08144cea533dcd3d39388b7ffbe?family=GrandSlang+Roman"
-            rel="stylesheet"
-            type="text/css"
-          /> */}
-          <link rel="shortcut icon" href="/img/favicon.ico" />
+          <link rel="shortcut icon" href="/assets/img/favicon.ico" />
         </Head>
         <body>
           <Main />
