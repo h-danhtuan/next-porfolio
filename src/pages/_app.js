@@ -6,6 +6,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <div>
         <Head>
+          <html lang="en" />
           <title>Tuan Hoang</title>
           <meta name="description" content="Welcome to my simple maze" />
           <link rel="shortcut icon" href="/assets/img/favicon.ico" />

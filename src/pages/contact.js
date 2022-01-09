@@ -47,7 +47,7 @@ const Contact = () => {
               LinkedIn{" "}
             </a>
           </Link>
-          /
+          &nbsp;/&nbsp;
           <Link href="https://github.com/h-danhtuan">
             <a target="_blank" className="cool-link">
               {" "}
