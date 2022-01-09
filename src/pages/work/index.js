@@ -33,9 +33,9 @@ const work = () => {
           of knowledge, experience also mistakes and problems.
         </div>
         <div className="pb-5 font-thin text-[14px]">
-          The world of Web Development has grown at an highly rabid rate so by
-          all the thing I have been through, I have a chance to grow up as well.
-          I&apos;m learning and gaining new thing every day.
+          The world of Web Development has rapidly grown so by all the thing I
+          have been through, I have a chance to grow as well. I&apos;m learning
+          and gaining new thing every day.
         </div>
       </div>
       <div className="w-full lg:w-7/12 h-full px-8">
