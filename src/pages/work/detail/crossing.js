@@ -7,17 +7,17 @@ const Crossing = () => {
         <div className="flex flex-row lg:flex-col mt-8 lg:mt-4">
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-20 desk:mt-24 z-50">
             <Link href="/work">
-              <a className="">Work</a>
+              <a className="cool-link">Work</a>
             </Link>
           </div>
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-12 z-40">
             <Link href="/about">
-              <a className="">About</a>
+              <a className="cool-link">About</a>
             </Link>
           </div>
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-16">
             <Link href="/contact">
-              <a className="">Contact</a>
+              <a className="cool-link">Contact</a>
             </Link>
           </div>
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 mt-2 lg:mt-24 h-[2px] w-[40px] bg-[#EEE7E1] lg:-ml-2 xl:ml-1 2xl:ml-3 desk:ml-7"></div>
@@ -71,7 +71,7 @@ const Crossing = () => {
               <Link href="https://pasonacrossing.vn/">
                 <a
                   target="_blank"
-                  className="bg-[#333] text-[#EEE7E1] hover:opacity-70 font-bold py-2 px-4 rounded font-fugi text-[20px]"
+                  className="bg-[#333] text-[#EEE7E1] font-bold py-2 px-4 rounded font-fugi text-[20px] cool-btn w-fit"
                 >
                   https://pasonacrossing.vn/
                 </a>

@@ -7,17 +7,17 @@ const About = () => {
         <div className="flex flex-row lg:flex-col mt-8 lg:mt-4">
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-20 desk:mt-24 z-50">
             <Link href="/">
-              <a className="">Home</a>
+              <a className="devil-link">Home</a>
             </Link>
           </div>
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-12 z-40">
             <Link href="/work">
-              <a className="">Work</a>
+              <a className="devil-link">Work</a>
             </Link>
           </div>
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 lg:mt-16">
             <Link href="/contact">
-              <a className="">Contact</a>
+              <a className="devil-link">Contact</a>
             </Link>
           </div>
           <div className="rotate-0 lg:-rotate-90 mr-4 lg:mr-0 mt-2 lg:mt-24 h-[2px] w-[40px] bg-[#333] lg:-ml-2 xl:ml-1 2xl:ml-3 desk:ml-7"></div>
@@ -72,7 +72,7 @@ const About = () => {
             </div>
             <div className="mt-12 mb-8">
               <Link href="/contact">
-                <a className="bg-[#1a1919] text-[#EEE7E1] hover:opacity-70 font-bold py-2 px-4 rounded font-fugi text-[20px]">
+                <a className="bg-[#1a1919] text-[#1a1919] font-bold py-2 px-4 rounded font-fugi text-[20px] cool-btn w-fit">
                   Contact Me
                 </a>
               </Link>

@@ -2,29 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @import url(//db.onlinewebfonts.com/c/0fddb08144cea533dcd3d39388b7ffbe?family=GrandSlang+Roman); */
-
-/* @layer base {
-  html {
-    @apply font-mont;
-  }
-} */
-
-/* @font-face {
-  font-family: "GrandSlang Roman";
-  src: url("//db.onlinewebfonts.com/t/0fddb08144cea533dcd3d39388b7ffbe.eot");
-  src: url("//db.onlinewebfonts.com/t/0fddb08144cea533dcd3d39388b7ffbe.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/0fddb08144cea533dcd3d39388b7ffbe.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/0fddb08144cea533dcd3d39388b7ffbe.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/0fddb08144cea533dcd3d39388b7ffbe.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/0fddb08144cea533dcd3d39388b7ffbe.svg#GrandSlang Roman")
-      format("svg");
-} */
-
 @font-face {
   font-family: "Moric";
   src: url("/assets/fonts/Moric/Moric.ttf") format("truetype"),
@@ -48,5 +25,62 @@
 
 @font-face {
   font-family: "Montserrat Medium";
-  src: url("/assets/fonts/FontsFree-Net-Montserrat-Medium.ttf");
+  src: url("/assets/fonts/FontsFree-Net-Montserrat-Medium.ttf")
+    format("truetype");
+}
+
+@layer utilities {
+  .cool-link {
+    display: inline-block;
+    color: #eee7e1;
+    text-decoration: none;
+  }
+
+  .cool-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #eee7e1;
+    transition: width 0.3s;
+  }
+
+  .cool-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+  }
+
+  .devil-link {
+    display: inline-block;
+    color: #1a1919;
+    text-decoration: none;
+  }
+
+  .devil-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #1a1919;
+    transition: width 0.3s;
+  }
+
+  .devil-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+  }
+
+  .cool-btn {
+    border: 2px solid #1a1919;
+    color: #eee7e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1.2s;
+  }
+
+  .cool-btn:hover {
+    box-shadow: inset -10em 0 0 0 #eee7e1, inset 10em 0 0 0 #eee7e1;
+    color: #1a1919;
+  }
 }
