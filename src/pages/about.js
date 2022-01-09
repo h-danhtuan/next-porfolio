@@ -49,10 +49,9 @@ const About = () => {
 
         <div className="items-start">
           <div className="pb-5 font-thin text-[14px] text-[#333] lg:w-3/4 2xl:w-3/5">
-            This resonates so deeply with me because I have no desire to make
-            things just for the sake of it. I only want to make, design or build
-            ideas and products that matter and have a positive impact in the
-            world.
+            &quot;Started from the bottom&quot;. I am always desire to make,
+            design or build ideas and products that matter and have a positive
+            impact in the world. And I start with small tiny one.
           </div>
 
           <div className="mt-4">
