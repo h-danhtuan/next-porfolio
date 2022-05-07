@@ -30,11 +30,11 @@ const NewPasona = () => {
       <div className="w-full px-8 font-mondium pt-[50px] lg:pt-[65px] xl:pt-[70px] 2xl:pt-[80px] desk:pt-[105px] lg:ml-12 lg:pr-12">
         <div className="flex flex-col lg:flex-row justify-between items-center text-[#EEE7E1]">
           <div className="items-start w-full">
-            <div className="font-semibold text-[40px] lg:text-[60px] xl:text-[75px] 2xl:text-[90px] desk:text-[120px] font-fugi font-medium">
+            <div className="text-[40px] lg:text-[60px] xl:text-[75px] 2xl:text-[90px] desk:text-[120px] font-fugi font-medium">
               New Pasona
             </div>
             <div className="font-mondium text-[#eee7e1] pb-5 lg:-mt-4">
-              / 2021
+              / 2022
             </div>
             <div className="font-fugi text-[20px] lg:text-[28px] xl:text-[36px]">
               Making fullpage website of Pasona Tech Vietnam.
@@ -69,9 +69,12 @@ const NewPasona = () => {
               <div className="font-fugi text-[20px] xl:text-[30px] mb-4">
                 Check it out.
               </div>
-              <Link href="#">
-                <a className="bg-[#333] text-[#EEE7E1] hover:opacity-70 font-bold py-2 px-4 rounded font-fugi text-[20px]">
-                  Not available yet
+              <Link href="https://www.pasonatech.vn/">
+                <a
+                  className="bg-[#333] text-[#EEE7E1] font-bold py-2 px-4 rounded font-fugi text-[20px] cool-btn w-fit"
+                  target="_blank"
+                >
+                  https://www.pasonatech.vn/
                 </a>
               </Link>
             </div>

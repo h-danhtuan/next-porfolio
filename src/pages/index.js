@@ -27,10 +27,12 @@ export default function Home() {
       </div>
       <div className="w-full lg:w-4/12 px-8 font-mondium text-text-small pt-[60px] lg:pt-[300px] xl:pt-[430px] pr-10">
         <div className="pb-5 font-semibold text-[16px]">HOANG DANH TUAN</div>
-        <div className="pb-5 font-thin text-[14px]">Frontend Developer.</div>
+        <div className="pb-5 font-thin text-[14px]">
+          Frontend Developer - Salesforce Developer.
+        </div>
         <div className="pb-5 font-thin text-[14px]">
           Creating beautiful and engaging digital experiences in Da Nang,
-          Vietnam.
+          Vietnam and in Awaji, Japan.
         </div>
       </div>
       <div className="w-full lg:w-7/12 h-full px-8">

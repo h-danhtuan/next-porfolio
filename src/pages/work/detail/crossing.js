@@ -30,7 +30,7 @@ const Crossing = () => {
       <div className="w-full px-8 font-mondium pt-[50px] lg:pt-[65px] xl:pt-[70px] 2xl:pt-[80px] desk:pt-[105px] lg:ml-12 lg:pr-12">
         <div className="flex flex-col lg:flex-row justify-between items-center text-[#EEE7E1]">
           <div className="items-start w-full">
-            <div className="font-semibold text-[40px] lg:text-[60px] xl:text-[75px] 2xl:text-[90px] desk:text-[120px] font-fugi font-medium">
+            <div className="text-[40px] lg:text-[60px] xl:text-[75px] 2xl:text-[90px] desk:text-[120px] font-fugi font-medium">
               Crossing
             </div>
             <div className="font-mondium text-[#eee7e1] pb-5 lg:-mt-4">
